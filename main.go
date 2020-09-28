@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
-func main()  {
-	fmt.Println("Hola Mundo!") // eliminar esta línea
+func main() {
+	var myInt int64
+	fmt.Scan(&myInt)
+	fmt.Print(myInt * myInt)
 }
